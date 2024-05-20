@@ -15,6 +15,7 @@ def hello_world():
 
 @app.route('/data')
 def data():
+    print("ciao")
     return 'Ciao, data!'
 
 @app.route('/movies')
